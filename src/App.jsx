@@ -1,9 +1,12 @@
-import "./App.css";
+
+import React, { useState } from 'react';
+import ProductsPage from './components/ProductsPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React | Thinking in React</h1>
+
+    <div className="container text-center">
+      <ProductsPage />
     </div>
   );
 }
